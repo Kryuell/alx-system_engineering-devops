@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 #!/bin/bash 
 echo $PATH | tr -s ":" "\n" | wc -l
+=======
+#!/bin/bash
+echo $((` echo $PATH | grep -o | ":/" | wc -l`+ 1
+>>>>>>> 58513aba502f97d3141f982b9c7d6650d26eeb10
