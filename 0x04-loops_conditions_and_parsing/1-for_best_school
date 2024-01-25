@@ -1,7 +1,7 @@
-#!/bin/bash
+#!/usr/bin/env bash
+# displays Best School 10 times.
 
-# Loop 10 times and display "Best School"
-for ((i=0; i<10; i++))
+for (( c=1; c<=10; c++ ))
 do
     echo "Best School"
 done
