@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# Initialize counter
+count=0
+
+# Loop until count is 10
+until [ $count -eq 10 ]
+do
+    echo "Best School"
+    # Increment counter
+    ((count++))
+done
