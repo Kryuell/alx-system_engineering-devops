@@ -1,2 +1,2 @@
-zsh: permission denied: ./0-nginx_likes_port_80
-zsh: permission denied: ./0-nginx_likes_port_80
+ln: failed to create symbolic link '/etc/nginx/sites-enabled/default'ln: failed to create symbolic link '/etc/nginx/sites-enabled/default': Permission denied
+: Permission denied
